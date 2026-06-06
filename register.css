@@ -1,0 +1,81 @@
+/* Reset body defaults and set a dark background */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e8e1e1; /* Dark black background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width:100vw;
+    
+}
+
+/* Center card container */
+.form-container {
+    background-color: purple; /* Crisp white form card */
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(110, 68, 255, 0.2); /* Soft purple shadow glow */
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;;
+    justify-content: center;
+    align-items: stretch;
+  
+}
+
+/* Header style */
+.form-container h1 {
+    color: #121212; /* Black title text */
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* Input text fields */
+.form-container input {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 18px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Interactive focus style for inputs */
+.form-container input:focus {
+    outline: none;
+    border-color: #6e44ff; /* Changes border to vibrant purple */
+    box-shadow: 0 0 8px rgba(110, 68, 255, 0.2);
+}
+
+/* Action button styling */
+.form-container button {
+    width: 100%;
+    padding: 14px;
+    background-color: #6e44ff; /* Bold purple button */
+    color: #ffffff; /* White button text */
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+/* Button hover and active press states */
+.form-container button:hover {
+    background-color: #5329e6; /* Darker purple on hover */
+}
+
+.form-container button:active {
+    transform: scale(0.98); /* Slight click effect */
+}
