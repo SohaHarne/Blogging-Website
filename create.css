@@ -1,0 +1,66 @@
+.create-container {
+  min-height: 100vh;
+  background: #f8f5ff;
+  padding: 40px;
+  display:flex;
+}
+
+.create-card {
+  max-width: 700px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+.create-title {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #7b2cff;
+}
+
+.create-input,
+.create-textarea {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.create-input:focus,
+.create-textarea:focus {
+  border-color: #7b2cff;
+}
+
+.create-textarea {
+  min-height: 200px;
+  resize: vertical;
+}
+
+.create-btn {
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    #6a00ff,
+    #b000ff
+  );
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.create-btn:hover {
+  transform: translateY(-2px);
+}
